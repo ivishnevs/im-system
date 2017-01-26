@@ -4,7 +4,7 @@ SERVER_PORT = 5050
 
 DB_ENGINE = 'postgresql+psycopg2://'
 DB_USER = 'postgres'
-DB_PASSWORD = '9w6sMnj1'
+DB_PASSWORD = '******'
 DB_HOST ='localhost'
 DB_NAME = 'messenger'
 
