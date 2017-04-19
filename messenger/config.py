@@ -7,5 +7,5 @@ DB_USER = 'postgres'
 DB_PASSWORD = '******'
 DB_HOST ='localhost'
 DB_NAME = 'messenger'
-
+KEK
 DB_FULL_ENGINE = DB_ENGINE + DB_USER + ':' +DB_PASSWORD + '@' + DB_HOST + '/' + DB_NAME
