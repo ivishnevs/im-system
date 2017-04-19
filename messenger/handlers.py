@@ -7,7 +7,7 @@ class BaseHandler(object):
     def __init__(self, me, recipients=None, server=None, ):
         self.me = me
         self.server = server
-        self.recipients = recipients # must
+        self.recipients = recipients # must foo
 
     def handle(self, msg):
         self.me.push("Enter the command, please!\n")
