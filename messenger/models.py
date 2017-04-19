@@ -17,7 +17,7 @@ class User(Base):
     id = Column(Integer, primary_key=True)
     name = Column(String(20), unique=True)
     password = Column(String(20))
-    ip_list = Column(String(200), nullable=True)
+    ip_list = Column(String(200), nullable=True) # kokos
 
     def __init__(self, name, password, ip_list):
         self.name = name
